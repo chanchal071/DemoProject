@@ -33,7 +33,8 @@ public class HomePage extends base {
 	public void initializeBrowser() throws IOException, InterruptedException
 	{
 		log.info("Driver Initialized");
-		
+		log.info("Driver Initialized 1");
+
 		driver = initializeDriver(); 
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
