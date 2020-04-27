@@ -34,6 +34,8 @@ public class HomePage extends base {
 	{
 		log.info("Driver Initialized");
 		log.info("Driver Initialized 1");
+		log.info("Driver Initialized 2");
+
 
 		driver = initializeDriver(); 
 		driver.get(prop.getProperty("url"));
