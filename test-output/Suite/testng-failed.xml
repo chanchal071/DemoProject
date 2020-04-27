@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="angara.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="angara.HomePage">
+        <methods>
+          <include name="verifySelectedOption"/>
+          <include name="driverClosed"/>
+          <include name="VerifyProductNameandPriceOnCart"/>
+          <include name="CheckOutPage"/>
+          <include name="initializeBrowser"/>
+          <include name="clickOnproduct"/>
+          <include name="clickOnBlueSapphire"/>
+          <include name="ProceedToPayment"/>
+          <include name="verifyCheckoutPage"/>
+          <include name="clickFilterDropdown"/>
+          <include name="ProductName"/>
+        </methods>
+      </class> <!-- angara.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

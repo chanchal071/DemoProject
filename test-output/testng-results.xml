@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="364985" started-at="2020-04-22T14:29:45Z" finished-at="2020-04-22T14:35:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="364985" started-at="2020-04-22T14:29:45Z" finished-at="2020-04-22T14:35:50Z">
+      <class name="angara.HomePage">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:angara.HomePage@6771beb3]" name="initializeBrowser" duration-ms="55861" started-at="2020-04-22T19:59:45Z" finished-at="2020-04-22T20:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="clickOnBlueSapphire()[pri:0, instance:angara.HomePage@6771beb3]" name="clickOnBlueSapphire" duration-ms="21563" started-at="2020-04-22T20:00:41Z" depends-on-methods="angara.HomePage.initializeBrowser" finished-at="2020-04-22T20:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBlueSapphire -->
+        <test-method status="PASS" signature="clickFilterDropdown()[pri:0, instance:angara.HomePage@6771beb3]" name="clickFilterDropdown" duration-ms="21039" started-at="2020-04-22T20:01:03Z" depends-on-methods="angara.HomePage.clickOnBlueSapphire" finished-at="2020-04-22T20:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFilterDropdown -->
+        <test-method status="PASS" signature="getTitleName()[pri:0, instance:angara.HomePage@6771beb3]" name="getTitleName" duration-ms="95" started-at="2020-04-22T20:01:24Z" depends-on-methods="angara.HomePage.clickOnBlueSapphire" finished-at="2020-04-22T20:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleName -->
+        <test-method status="PASS" signature="clickOnproduct()[pri:0, instance:angara.HomePage@6771beb3]" name="clickOnproduct" duration-ms="11427" started-at="2020-04-22T20:01:24Z" depends-on-methods="angara.HomePage.clickFilterDropdown" finished-at="2020-04-22T20:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnproduct -->
+        <test-method status="PASS" signature="ProductName()[pri:0, instance:angara.HomePage@6771beb3]" name="ProductName" duration-ms="42576" started-at="2020-04-22T20:01:35Z" depends-on-methods="angara.HomePage.clickOnproduct" finished-at="2020-04-22T20:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductName -->
+        <test-method status="PASS" signature="verifySelectedOption()[pri:0, instance:angara.HomePage@6771beb3]" name="verifySelectedOption" duration-ms="18012" started-at="2020-04-22T20:02:18Z" depends-on-methods="angara.HomePage.ProductName" finished-at="2020-04-22T20:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedOption -->
+        <test-method status="PASS" signature="VerifyProductNameandPriceOnCart()[pri:0, instance:angara.HomePage@6771beb3]" name="VerifyProductNameandPriceOnCart" duration-ms="30828" started-at="2020-04-22T20:02:36Z" depends-on-methods="angara.HomePage.verifySelectedOption" finished-at="2020-04-22T20:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductNameandPriceOnCart -->
+        <test-method status="PASS" signature="verifyCheckoutPage()[pri:0, instance:angara.HomePage@6771beb3]" name="verifyCheckoutPage" duration-ms="56016" started-at="2020-04-22T20:03:07Z" depends-on-methods="angara.HomePage.VerifyProductNameandPriceOnCart" finished-at="2020-04-22T20:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPage -->
+        <test-method status="PASS" signature="CheckOutPage()[pri:0, instance:angara.HomePage@6771beb3]" name="CheckOutPage" duration-ms="11902" started-at="2020-04-22T20:04:03Z" depends-on-methods="angara.HomePage.verifyCheckoutPage" finished-at="2020-04-22T20:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutPage -->
+        <test-method status="PASS" signature="ProceedToPayment()[pri:0, instance:angara.HomePage@6771beb3]" name="ProceedToPayment" duration-ms="34394" started-at="2020-04-22T20:04:15Z" depends-on-methods="angara.HomePage.CheckOutPage" finished-at="2020-04-22T20:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProceedToPayment -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:angara.HomePage@6771beb3]" name="driverClosed" is-config="true" duration-ms="61045" started-at="2020-04-22T20:04:49Z" finished-at="2020-04-22T20:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+      </class> <!-- angara.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

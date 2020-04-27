@@ -1,0 +1,7 @@
+19:59:45.819 [main] INFO  resources.base - Driver Initialized
+20:01:24.372 [main] INFO  resources.base - Title Matched
+20:02:18.189 [main] INFO  resources.base - Product Name Matched
+20:02:18.404 [main] INFO  resources.base - Product Price Matched
+20:02:29.963 [main] INFO  resources.base - Modified price is Matching
+20:02:58.846 [main] INFO  resources.base - Product in cart same as product detail
+20:02:58.967 [main] INFO  resources.base - Product Price in cart same as modified product price
