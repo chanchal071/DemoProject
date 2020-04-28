@@ -36,6 +36,8 @@ public class HomePage extends base {
 		log.info("Driver Initialized 1");
 		log.info("Driver Initialized 2");
 		log.info("Final message");
+		log.info("Last message");
+
 		driver = initializeDriver(); 
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
